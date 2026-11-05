@@ -7,7 +7,7 @@ function Navbar() {
         
         {/* Left: Brand Logo */}
         <div className="flex items-center gap-8">
-          <Link to="/" className="flex items-center gap-2 font-bold text-xl text-purple-700">
+          <Link to="/" className="flex items-center justify-between font-bold text-xl text-red-700">
             <span className="p-1.5 bg-purple-100 rounded-lg text-purple-700">📄</span>
             <span>PDFkit</span>
           </Link>
@@ -28,7 +28,7 @@ function Navbar() {
           <button className="text-sm font-medium text-gray-700 hover:text-purple-600 transition-colors">
             Log in
           </button>
-          <button className="px-5 py-2 text-sm font-medium text-white bg-purple-600 hover:bg-purple-700 rounded-lg shadow-sm transition-all">
+          <button className="px-5 py-2 text-sm font-medium text-white bg-red-600 hover:bg-red-700 rounded-lg shadow-sm transition-all">
             Sign Up
           </button>
         </div>
